@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Soul Link] — University Relationship Support</title>
+    <meta name="description" content="Private & confidential relationship support for university students. Expert guidance for freshers and seniors.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <img src="assets/images/logo.png" alt="Soul Link Logo" class="nav__logo">
+                <span class="nav__title">Soul Link</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                    <li class="nav_item"><a href="#partners" class="nav_link">Partners</a></li>
+                    <li class="nav_item"><a href="#pricing" class="nav_link">Pricing</a></li>
+                    <li class="nav_item"><a href="#faq" class="nav_link">FAQ</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <span class="nav__close-icon">×</span>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Soul Link</h1>
+                    <p class="hero__subtitle">Private & confidential relationship support for university students</p>
+                    <p class="hero__description">Get expert guidance for dating, relationships, and communication challenges in a safe, judgment-free space.</p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary" onclick="scrollToSection('contact')">Submit Case</button>
+                        <button class="btn btn--secondary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section" id="about">
+            <div class="container">
+                <h2 class="section__title">Why Choose Us</h2>
+                <div class="features__grid">
+                    <div class="feature__card">
+                        <div class="feature__icon">🔒</div>
+                        <h3 class="feature__title">100% Confidential</h3>
+                        <p class="feature__description">Your privacy is our priority. All sessions and data are completely confidential.</p>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__icon">👥</div>
+                        <h3 class="feature__title">Expert Mentors</h3>
+                        <p class="feature__description">Trained professionals who understand university life and relationships.</p>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__icon">💬</div>
+                        <h3 class="feature__title">Flexible Sessions</h3>
+                        <p class="feature__description">One-time sessions or ongoing support based on your needs.</p>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__icon">💳</div>
+                        <h3 class="feature__title">Secure Payments</h3>
+                        <p class="feature__description">Easy and secure online payments with multiple options available.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="process section">
+            <div class="container">
+                <h2 class="section__title">How It Works</h2>
+                <div class="process__steps">
+                    <div class="process__step">
+                        <div class="process__number">1</div>
+                        <h3 class="process__title">Submit Your Case</h3>
+                        <p class="process__description">Share your situation privately - be as detailed as you're comfortable with.</p>
+                    </div>
+                    <div class="process__step">
+                        <div class="process__number">2</div>
+                        <h3 class="process__title">Choose Your Expert</h3>
+                        <p class="process__description">Select from our verified relationship mentors who match your needs.</p>
+                    </div>
+                    <div class="process__step">
+                        <div class="process__number">3</div>
+                        <h3 class="process__title">Pay Securely</h3>
+                        <p class="process__description">Complete payment through our secure system with multiple options.</p>
+                    </div>
+                    <div class="process__step">
+                        <div class="process__number">4</div>
+                        <h3 class="process__title">Receive Guidance</h3>
+                        <p class="process__description">Get personalized advice and support through your preferred method.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <h2 class="section__title">Our Services</h2>
+                <div class="services__grid">
+                    <div class="service__card">
+                        <div class="service__icon">💌</div>
+                        <h3 class="service__title">First Confession Help</h3>
+                        <p class="service__description">Get guidance on how to express your feelings for the first time with confidence.</p>
+                        <button class="btn btn--outline">Book Session</button>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">✍</div>
+                        <h3 class="service__title">Message Drafting</h3>
+                        <p class="service__description">Craft the perfect messages for dating apps, texts, or important conversations.</p>
+                        <button class="btn btn--outline">Book Session</button>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">🌟</div>
+                        <h3 class="service__title">Confidence Coaching</h3>
+                        <p class="service__description">Build self-confidence and communication skills for dating and relationships.</p>
+                        <button class="btn btn--outline">Book Session</button>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">🤝</div>
+                        <h3 class="service__title">Couple Mediation</h3>
+                        <p class="service__description">Professional mediation for couples facing communication challenges.</p>
+                        <button class="btn btn--outline">Book Session</button>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">🔄</div>
+                        <h3 class="service__title">Reconnect Package</h3>
+                        <p class="service__description">Guidance on rekindling connections and rebuilding relationships.</p>
+                        <button class="btn btn--outline">Book Session</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="partners section" id="partners">
+            <div class="container">
+                <h2 class="section__title">Meet Our Experts</h2>
+                <div class="partners__grid">
+                    <div class="partner__card">
+                        <img src="assets/images/tobi.jpg" alt="Tobi - Relationship Mentor" class="partner__image">
+                        <h3 class="partner__name">Tobi</h3>
+                        <p class="partner__role">Senior Relationship Mentor</p>
+                        <p class="partner__bio">5+ years experience helping students navigate university relationships with practical, actionable advice.</p>
+                        <button class="btn btn--primary">Book with Tobi</button>
+                    </div>
+                    <div class="partner__card">
+                        <img src="assets/images/professor.jpg" alt="Professor - Counseling Expert" class="partner__image">
+                        <h3 class="partner__name">Professor</h3>
+                        <p class="partner__role">Counseling Expert</p>
+                        <p class="partner__bio">PhD in Psychology with focus on young adult relationships and communication dynamics.</p>
+                        <button class="btn btn--primary">Book with Professor</button>
+                    </div>
+                    <div class="partner__card">
+                        <img src="assets/images/vector.jpg" alt="Vector - Dating Coach" class="partner__image">
+                        <h3 class="partner__name">Vector</h3>
+                        <p class="partner__role">Dating Coach</p>
+                        <p class="partner__bio">Specializes in modern dating challenges, app etiquette, and building genuine connections.</p>
+                        <button class="btn btn--primary">Book with Vector</button>
+                    </div>
+                        <div class="partner__card">
+                        <img src="assets/images/nikola.jpg" alt="Vector - Dating Coach" class="partner__image">
+                        <h3 class="partner__name">Nikola</h3>
+                        <p class="partner__role">Dating Coach</p>
+                        <p class="partner__bio">Specializes in modern dating challenges, app etiquette, and building genuine connections.</p>
+                        <button class="btn btn--primary">Book with Nikola</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing section" id="pricing">
+            <div class="container">
+                <h2 class="section__title">Simple Pricing</h2>
+                <p class="pricing__note">Final price per case depends on complexity — contact for custom quote</p>
+                <div class="pricing__grid">
+                    <div class="pricing__card">
+                        <h3 class="pricing__title">Basic</h3>
+                        <div class="pricing__price">$3.99</div>
+                        <ul class="pricing__features">
+                            <li>30-min consultation</li>
+                            <li>Basic advice & guidance</li>
+                            <li>Email follow-up</li>
+                            <li>Message review (1)</li>
+                        </ul>
+                        <button class="btn btn--outline">Get Started</button>
+                    </div>
+                    <div class="pricing_card pricing_card--popular">
+                        <div class="pricing__badge">Most Popular</div>
+                        <h3 class="pricing__title">Standard</h3>
+                        <div class="pricing__price">$8.99</div>
+                        <ul class="pricing__features">
+                            <li>60-min detailed session</li>
+                            <li>Personalized strategy</li>
+                            <li>3 message reviews</li>
+                            <li>1-week text support</li>
+                        </ul>
+                        <button class="btn btn--primary">Get Started</button>
+                    </div>
+                    <div class="pricing__card">
+                        <h3 class="pricing__title">Premium</h3>
+                        <div class="pricing__price">$24.99</div>
+                        <ul class="pricing__features">
+                            <li>90-min comprehensive session</li>
+                            <li>Custom action plan</li>
+                            <li>Unlimited message reviews</li>
+                            <li>2-week ongoing support</li>
+                        </ul>
+                        <button class="btn btn--outline">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section" id="faq">
+            <div class="container">
+                <h2 class="section__title">Frequently Asked Questions</h2>
+                <div class="faq__grid">
+                    <div class="faq__item">
+                        <h3 class="faq__question">Is this service completely anonymous?</h3>
+                        <p class="faq__answer">Yes, you can choose to remain completely anonymous. We only require information necessary for the service you select.</p>
+                    </div>
+                    <div class="faq__item">
+                        <h3 class="faq__question">What if I need to cancel or get a refund?</h3>
+                        <p class="faq__answer">We offer full refunds if canceled 24 hours before your session. Emergency cancellations are handled case by case.</p>
+                    </div>
+                    <div class="faq__item">
+                        <h3 class="faq__question">Can I get follow-up support?</h3>
+                        <p class="faq__answer">Yes, all packages include some follow-up support. You can also book additional sessions as needed.</p>
+                    </div>
+                    <div class="faq__item">
+                        <h3 class="faq__question">How do you protect my data?</h3>
+                        <p class="faq__answer">We use end-to-end encryption and strict data protection policies. Your information is never shared without consent.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Submit Your Case</h2>
+                <form class="contact__form" id="case-form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Name (Optional)</label>
+                        <input type="text" id="name" name="name" class="form__input" placeholder="Your name">
+                    </div>
+                    
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="university" class="form__label">University (Optional)</label>
+                            <input type="text" id="university" name="university" class="form__input" placeholder="Your university">
+                        </div>
+                        <div class="form__group">
+                            <label for="department" class="form__label">Department (Optional)</label>
+                            <input type="text" id="department" name="department" class="form__input" placeholder="Your department">
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="expert" class="form__label">Preferred Expert</label>
+                        <select id="expert" name="expert" class="form__select">
+                            <option value="">Any available expert</option>
+                            <option value="tobi">Tobi</option>
+                            <option value="professor">Professor</option>
+                            <option value="vector">Vector</option>
+                        </select>
+                    </div>
+
+                    <div class="form_group form_group--checkbox">
+                        <input type="checkbox" id="anonymous" name="anonymous" class="form__checkbox">
+                        <label for="anonymous" class="form__label">Remain anonymous</label>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="description" class="form__label">Case Description *</label>
+                        <textarea id="description" name="description" class="form__textarea" placeholder="Please describe your situation and what kind of help you're looking for..." required></textarea>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="attachment" class="form__label">Attach File (Optional)</label>
+                        <input type="file" id="attachment" name="attachment" class="form__file">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label">Preferred Contact Method</label>
+                        <div class="form__radio-group">
+                            <label class="form__radio-label">
+                                <input type="radio" name="contact_method" value="email" checked>
+                                <span class="form__radio-text">Email</span>
+                            </label>
+                            <label class="form__radio-label">
+                                <input type="radio" name="contact_method" value="phone">
+                                <span class="form__radio-text">Phone</span>
+                            </label>
+                            <label class="form__radio-label">
+                                <input type="radio" name="contact_method" value="telegram">
+                                <span class="form__radio-text">Telegram</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form_group form_group--checkbox">
+                        <input type="checkbox" id="terms" name="terms" class="form__checkbox" required>
+                        <label for="terms" class="form_label">I accept the <a href="#" class="formlink">Terms of Service</a> and <a href="#" class="form_link">Privacy Policy</a></label>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--full">Submit Case</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="assets/images/logo.png" alt="[Soul Link] Logo" class="footer__logo">
+                    <span class="footer__title">Soul Link</span>
+                    <p class="footer__description">Private & confidential relationship support for university students</p>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Quick Links</h4>
+                        <a href="#home" class="footer__link">Home</a>
+                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#partners" class="footer__link">Partners</a>
+                        <a href="#pricing" class="footer__link">Pricing</a>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Support</h4>
+                        <a href="#faq" class="footer__link">FAQ</a>
+                        <a href="#" class="footer__link">Privacy Policy</a>
+                        <a href="#" class="footer__link">Terms of Service</a>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Connect</h4>
+                        <a href="#" class="footer__link">Instagram</a>
+                        <a href="#" class="footer__link">Twitter</a>
+                        <a href="#" class="footer__link">LinkedIn</a>
+                        <a href="#" class="footer__link">Email</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2020 Soul Link. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
